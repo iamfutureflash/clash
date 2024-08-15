@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button"
-
-const page = () => {
+import HeroSection from "@/components/base/HeroSection";
+const App = () => {
   return (
-    <>
-      <div className="text-red-500">i am home page</div>
-      <Button variant='outline'>Hello Next</Button>
-    </>
-  )
+    <div>
+      <HeroSection />
+    </div>
+  );
 }
 
-export default page
+export default App;
